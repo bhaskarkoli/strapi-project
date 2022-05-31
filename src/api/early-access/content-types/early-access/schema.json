@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "early_accesses",
+  "info": {
+    "singularName": "early-access",
+    "pluralName": "early-accesses",
+    "displayName": "EarlyAccess"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event_name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "UserEmail": {
+      "type": "email"
+    },
+    "UserMobileNumber": {
+      "type": "integer"
+    }
+  }
+}

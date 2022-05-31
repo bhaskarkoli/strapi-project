@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SettingName": {
+      "type": "string"
+    },
+    "SettingValue": {
+      "type": "string"
+    }
+  }
+}
